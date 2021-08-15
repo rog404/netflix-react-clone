@@ -57,7 +57,7 @@ const App = () => {
       </footer>
       {movieList.length <= 0 && 
         <div className="loading">
-          <img src="https://3.bp.blogspot.com/-26DCURDWEMY/V46UH5drfWI/AAAAAAAAlQY/lav6OWJZffw9KE7Pc0l2rxBcs7QKDptiACLcB/s1600/wavy.gif" />
+          <img src="https://3.bp.blogspot.com/-26DCURDWEMY/V46UH5drfWI/AAAAAAAAlQY/lav6OWJZffw9KE7Pc0l2rxBcs7QKDptiACLcB/s1600/wavy.gif" alt="loading animation"/>
         </div>
       }
     </div>

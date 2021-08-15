@@ -1,4 +1,3 @@
-import { Description } from '@material-ui/icons'
 import React from 'react'
 import './FeaturedMovie.css'
 
@@ -28,8 +27,8 @@ const FeatureMovie = ({ item }) => {
           </div>
           <div className="featured--description">{description}</div>
           <div className="featured--buttons">
-            <a href={`/watch/${item.id}`} className="featured--watchbutton">Assistir</a>
-            <a href={`/list/add/${item.id}`}className="featured--mylistbutton">+  Minha Lista</a>
+            <a href={`/watch/${item.id}`} className="featured--watchbutton">► Assistir</a>
+            <a href={`/list/add/${item.id}`}className="featured--mylistbutton">+ Minha Lista</a>
           </div>
           <div className="featured--genres"><strong>Gêneros:</strong> { genres.join(', ') }</div>
           </div>
